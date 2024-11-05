@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO HOGAR </title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<script src="java/funciones.js"></script>
+
+<body>
+    <!--header;:encabezado-->
+    <Header>
+        <center>
+            <H1>AYUDEMOS A CREAR UN NUEVO MUNDO</H1>
+        </center>
+        <Nav>
+            <!--nav:enlaces de navegacion-->
+            <UL>
+                <LI><a href="#sesion1">Quienes somos</a></LI>
+                <LI><a href="#sesion2">Galeria</a></LI>
+                <LI><a href="#sesion3">contactos</a></LI>
+            </UL>
+        </Nav>
+    </Header>
+    <!--Main:contenido principal del documento-->
+    <Main>
+        <!--section-.agrupa contenido tematico-->
+        <section id="sesion1">
+            <!--center:centar titulo-->
+            <center>
+                <h2><a href="pages/quienes_somos.html">QUIENES SOMOS</a></h2>
+            </center>
+            <p>Reducir la huella de impacto por contaminación de aceite quemado en las fuentes hídricas de la ciudad de
+                Cali y generar el emprendimiento de una nueva empresa que brinde productos artesanales a base del
+                aprovechamiento del aceite quemado que genere los hogares de nuestras comunas.</p>
+            <p>Nuestro proyecto está enfocado en el cuidado de nuestras fuentes hídricas, nuestro equipo de trabajo
+                cuenta con un valor de compromiso por generar conciencia del impacto que causa la acción cotidiana del
+                uso de aceite y el resultado final que diariamente contamina año tras año nuestras fuentes hídricas. A
+                largo plazo EcoHogar mejoraría su capacidad de almacenamiento de este insumo, una mejora continúa en
+                expandir nuestros productos con el fin de ofrecer más opciones a nuestros posibles clientes,
+                pretendiendo ser reconocida a nivel nacional por su innovación en preservar nuestras fuentes hídricas a
+                través de las materias primas utilizadas para la producción.</p>
+        </section>
+        <section id="sesion2">
+            <center>
+                <h2><a href="pages/galeria.html">GALERIA</a></h2>
+            </center>
+            <ul>
+                <li>Como Iniciamos</li>
+                <img src="IMAGE/1.jpg" alt="1">
+                <p>El proyecto busca mitigar el impacto de nuestras fuentes hídricas y cuidar nuestros ecosistemas a
+                    través de volver a reutilizar el aceite quemado que generamos en nuestros hogares de la ciudad de
+                    Cali, también ofreciendo un producto artesanal que permite la apropiación y la conciencia de un
+                    mayor cuidado de nuestras fuentes hídricas a través del uso de nuestros productos EcoHogar aportando
+                    un valor agregado a sus hogares..</p>
+                <br>
+                <li>Productos</li>
+                <img src="IMAGE/2.jpg" alt="2">
+                <p>permitiendo la elaboración de jabón y velas a base de aceite quemado aprovechando este recurso y
+                    ayudando a mitigar el impacto en los ecosistemas de nuestras fuentes hídricas</p>
+                <br>
+
+                <li>Experiencias</li>
+                <img src="IMAGE/3.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta natus nisi voluptates, enim aliquid
+                    accusantium. Dolores adipisci necessitatibus, ipsum, accusamus, consequuntur id inventore ullam
+                    culpa quisquam eligendi impedit assumenda veritatis?</p>
+            </ul>
+        </section>
+        <section id="sesion3">
+            <center>
+                <h2><a href="pages/contactos.html">contactos</a></h2>
+            </center>
+            <ul>
+                <li>Whatsapp</li>
+                <li>instagram</li>
+                <li>Facebook</li>
+            </ul>
+        </section>
+    </Main>
+    <h1>Formulario</h1>
+    <form action="/PAGES/contactos.html" method="">
+        <fieldset>
+            <legend>informacion personal</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br> <br>
+            <label for="correo">Correo Electronico:</label>
+            <input type="correo" id="correo" name="correo" required>
+            <br> <br>
+            <label for="telefono">Telefono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+        </fieldset>
+        <fieldset>
+
+            <form action="/ruta/del/servidor" method="POST">
+                <label for="opciones">Selecciona tus opciones:</label><br>
+                <input type="checkbox" id="opcion1" name="opciones" value="opcion1">
+                <label for="opcion1">Opción 1</label><br>
+                <input type="checkbox" id="opcion2" name="opciones" value="opcion2">
+                <label for="opcion2">Opción 2</label><br>
+                <input type="checkbox" id="opcion3" name="opciones" value="opcion3">
+                <label for="opcion3">Opción 3</label><br>
+                <input type="checkbox" id="opcion4" name="opciones" value="opcion4">
+                <label for="opcion4">Opción 4</label><br><br>
+
+                <form action="/ruta/del/servidor" method="POST">
+                    <label for="opciones">Selecciona tus opciones:</label><br>
+                    <input type="checkbox" id="opcion1" name="opciones" value="opcion1">
+                    <label for="opcion1">Opción 1</label><br>
+                    <input type="checkbox" id="opcion2" name="opciones" value="opcion2">
+                    <label for="opcion2">Opción 2</label><br>
+                    <input type="checkbox" id="opcion3" name="opciones" value="opcion3">
+                    <label for="opcion3">Opción 3</label><br>
+                    <input type="checkbox" id="opcion4" name="opciones" value="opcion4">
+                    <label for="opcion4">Opción 4</label><br><br>
+
+
+                    <legend>Mensaje </legend>
+                    <LABEL for="asunto">Asunto</LABEL>
+                    <input type="text" id="asunto" name="asunto" required>
+                    <br><br>
+                    <LABEL for="Mensaje">Mensaje</LABEL>
+                    <textarea id="Mensaje" name="mensaje" rows 4 required></textarea>
+
+                    <input type="submit" value="Enviar">
+                </form>
+
+
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
